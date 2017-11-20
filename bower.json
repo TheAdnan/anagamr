@@ -1,0 +1,24 @@
+{
+  "name": "anagamr",
+  "authors": [
+    "TheAdnan <adnankicin92@gmail.com>"
+  ],
+  "description": "Anagram game",
+  "main": "index.php",
+  "keywords": [
+    "anagram",
+    "thesaurus",
+    "jquery",
+    "wordapi",
+    "php"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ]
+}
