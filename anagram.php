@@ -8,9 +8,13 @@ function Anagram(){
 	));
 	$resp = curl_exec($curl);
 
-	$word = $resp;
-
 	curl_close($curl);
 
-	return $word;
+	if(strlen($resp) < 7){
+        return $resp;
+    }
+    else{
+	    return "broken";
+    }
+
 }
